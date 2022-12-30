@@ -1,0 +1,160 @@
+body{
+    background-color: #FFF5EA;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.parent{
+    display: flex;
+    justify-content:flex-end;
+    padding: 30px;
+}
+.head{
+    margin-right: 150px;
+    color: #45454D;
+}
+a{
+    text-decoration: none;
+    font-size: small;
+    color: #968C83;
+    margin-right: 30px;
+}
+a:hover{
+    color: #45454D;
+}
+.parent2{
+    display: flex;
+    justify-content: center;
+}
+.pic1{
+    width: 90%;
+}
+hr{
+    width: 60%;
+}
+.parent3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #45454D;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.click1{
+    width: 15%;
+    padding: 20px;
+    border: 1px solid black;
+}
+.click2{
+    width: 40%;
+    padding: 30px;
+    border: 1px solid black;
+}
+.click1:hover{
+    background-color: #45454D;
+    color: white;
+    cursor: pointer;
+}
+.click2:hover{
+    background-color: #45454D;
+    color: white;
+    cursor: pointer;
+}
+.parentlogo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding: 30px;
+}
+.bigparent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.minparent{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    padding: 100px;
+}
+.contact3{
+    color: #45454D;
+}
+.contact3:hover{
+    color: #45454D;
+    color: black;
+}
+.pic2{
+    display: flex;
+    justify-content: baseline;
+}
+.photo1{
+    height: 500px;
+    padding: 50px;
+}
+.photo2{
+    width: 500px;
+    padding: 50px;
+}
+.emblem{
+    display: flex;
+    justify-content: flex-end;
+}
+.dog{
+    margin: auto;
+    width: 200px;
+    margin-bottom: 10%;
+}
+.phraza{
+    padding: 50px;
+}
+.pic3{
+    display: flex;
+    justify-content: center;
+}
+.salad{
+    width: 90%;
+}
+.loc{
+    display: flex;
+    justify-content:space-evenly;
+}
+.loc2{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: #45454D;
+}
+.loc3{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: #45454D;
+}
+.direc:hover{
+    color: black;
+}
+.park:hover{
+    color: black;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+.end{
+    display: flex;
+    padding: 100px;
+}
+.seen{
+    color: #45454D;
+    margin-left: 100px;
+    
+}
+
+
