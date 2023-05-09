@@ -1,160 +1,333 @@
-body{
+body {
     background-color: #FFF5EA;
 }
-h1{
-    font-family: 'Dancing Script', cursive;
-}
-.parent{
+
+.container {
     display: flex;
-    justify-content:flex-end;
-    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
-.head{
-    margin-right: 150px;
+
+.wrapperHead {
+    display: flex;
+    margin-right: 20%;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.list li {
+    display: flex;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.head {
+    font-family: 'Dancing Script', cursive;
     color: #45454D;
 }
-a{
+
+a {
     text-decoration: none;
-    font-size: small;
+    font-size: 12px;
     color: #968C83;
-    margin-right: 30px;
 }
-a:hover{
+
+a:hover {
     color: #45454D;
 }
-.parent2{
+
+.parent2 {
     display: flex;
     justify-content: center;
 }
-.pic1{
+
+.pic1 {
     width: 90%;
 }
-hr{
+
+hr {
     width: 60%;
 }
-.parent3{
+
+.parent3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #45454D;
     text-align: center;
 }
-.btn{
+
+.btn {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
 }
-.click1{
-    width: 15%;
+
+.click1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     border: 1px solid black;
 }
-.click2{
-    width: 40%;
+
+.click2 {
     padding: 30px;
     border: 1px solid black;
 }
-.click1:hover{
+
+.click1:hover {
     background-color: #45454D;
     color: white;
     cursor: pointer;
 }
-.click2:hover{
+
+.click2:hover {
     background-color: #45454D;
     color: white;
     cursor: pointer;
 }
-.parentlogo{
+
+.parentlogo {
     display: flex;
     justify-content: center;
 }
-.logo{
+
+.logo {
     padding: 30px;
 }
-.bigparent{
+
+.bigparent {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
 }
-.minparent{
+
+.minparent {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.contact {
+    list-style: none;
     display: flex;
     flex-direction: column;
-    font-size: small;
-    padding: 100px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
 }
-.contact3{
+
+.contact a {
+    margin: 0;
+}
+
+.minparent a {
     color: #45454D;
+    font-size: 16px;
 }
-.contact3:hover{
+
+.minparent a:hover {
     color: #45454D;
     color: black;
 }
-.pic2{
+
+.pic2 {
     display: flex;
-    justify-content: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
 }
-.photo1{
-    height: 500px;
-    padding: 50px;
+
+.photo2 {
+    width: 40%;
+    height: auto;
 }
-.photo2{
-    width: 500px;
-    padding: 50px;
-}
-.emblem{
-    display: flex;
-    justify-content: flex-end;
-}
-.dog{
+
+.photo1 {
     margin: auto;
-    width: 200px;
-    margin-bottom: 10%;
+    height: auto;
+    width: 40%;
 }
-.phraza{
+
+.emblem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
     padding: 50px;
 }
-.pic3{
+
+.dog {
+    display: flex;
+    max-width: 200px;
+
+}
+
+.phraze {
+    display: flex;
+    width: 500px;
+}
+
+.pic3 {
     display: flex;
     justify-content: center;
 }
-.salad{
+
+.salad {
     width: 90%;
 }
-.loc{
+
+.loc {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.loc2{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    color: #45454D;
-}
-.loc3{
+
+.loc2 {
     display: flex;
     flex-direction: column;
     padding: 50px;
     color: #45454D;
 }
-.direc:hover{
-    color: black;
-}
-.park:hover{
-    color: black;
-}
-.map{
+
+.loc3 {
     display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: #45454D;
+}
+
+.direc:hover {
+    color: black;
+}
+
+.park:hover {
+    color: black;
+}
+
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    filter: grayscale(100%);
 }
-.end{
+
+.goggle {
+    filter: grayscale(100%);
+    width: 70%;
+    height: 500px;
+}
+
+.end {
     display: flex;
     padding: 100px;
 }
-.seen{
+
+.seen {
     color: #45454D;
     margin-left: 100px;
-    
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .wrapperHead {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .wrapperList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list li {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        margin-bottom: 2%;
+    }
+
+    .end {
+        display: flex;
+        justify-content: center;
+    }
+
+    .seen {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bigparent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .contact {
+        padding: 0;
+    }
+
+    .phraze {
+        text-align: center;
+    }
+
+    .loc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .loc2,
+    .loc3 {
+        padding: 15px;
+    }
+
+    .pic2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .photo1,
+    .photo2 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .end {
+        display: flex;
+        justify-content: center;
+    }
+
+    .seen {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+}
